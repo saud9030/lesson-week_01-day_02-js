@@ -1,0 +1,45 @@
+The fortune Teller - 01 
+
+var numberOfChildren = 0;
+var geoLocation = 'Switzerland'; 
+var spouse = 'sara';
+var numberOfChildren = 0;
+
+console.log('You will be a ' + job + ' in ' + geoLocation 
++ ' and married to ' + spouse + ' with ' + numberOfChildren + ' kids');
+
+The Age Calculator - 02 
+
+var year = 2019;
+var birthYear = 1995;
+var age = year - birthYear;
+console.log('They are either ' + age + ' or ' + (age - 1) + ' years old');
+
+
+The Lifetime Supply Calculator - 03
+
+var age = 23;
+var maxAge = 72;
+var amount = 3;
+var forLife = (maxAge - age) * amount * 365;
+var year = (maxAge - age) + 2019;
+console.log('You will need ' + forLife 
++ ' to last you until the ripe old age of ' + maxAge + ' in ' + year);
+
+
+The Geometrizer - 04
+
+var radius = 8;
+var circumference = 2 * Math.PI * radius;
+var area = Math.PI * Math.pow(radius, 2);
+console.log('The circumference is ' + circumference);
+console.log('The area is ' + area);
+
+The Temperature Converter - 05
+
+var celsius = 26;
+var c2f = (celsius * 9/5) + 32;
+console.log(celsius + '°C is ' + c2f + '°F');
+var fahrenheit = 123;
+var f2c = (fahrenheit - 32) * 5/9;
+console.log(fahrenheit + '°F is ' + f2c + '°C');
